@@ -29,7 +29,6 @@ btnEl.addEventListener("click", function(){
 });
 
 let createList = document.querySelector(".naujas-btn");
-
 createList.addEventListener("click", function(){
     let newHeadingName = prompt("Įveskite pavadinimą");
         if (newHeadingName === "" || newHeadingName === null){
